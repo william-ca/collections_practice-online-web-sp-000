@@ -36,7 +36,7 @@ def reverse_array(ary)
 end
 
 def kesha_maker(string)
-  string.map do |letter|
+  string.collect do |letter|
     letter[2] = "$"
     return string
   end
