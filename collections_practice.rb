@@ -41,4 +41,3 @@ def kesha_maker(string)
     return string
   end
 end
-  
