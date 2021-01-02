@@ -25,3 +25,9 @@ def sort_array_char_count(ary)
     end
   end
 end
+
+def swap_elements(ary)
+  ary[1], ary[2] == ary[2], ary[1]
+  return ary
+end
+      
