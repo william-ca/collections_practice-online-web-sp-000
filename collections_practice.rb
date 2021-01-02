@@ -6,9 +6,9 @@ def sort_array_desc(ary)
   ary.sort do |a, b|
     if a == b
       0
-    elsif a < b 
+    elsif a < b
       1
-    elsif a > b 
+    elsif a > b
       -1
   end
 end
