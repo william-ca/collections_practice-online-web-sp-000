@@ -52,10 +52,10 @@ end
 
 def add_s(ary)
   ary.each_with_index.collect do |l, i|
-    if i = 1
-      l
-    elsif i != 1
+    if i != 1
       l << "s"
+    elsif i = 1
+      l
     end
   end
 end
