@@ -38,6 +38,6 @@ end
 def kesha_maker(string)
   string.collect do |letter|
     letter[2] = "$"
-    return letter
+    letter
   end
 end
