@@ -30,3 +30,7 @@ def swap_elements(ary)
   ary[1], ary[2] = ary[2], ary[1]
   return ary
 end
+
+def reverse_array(ary)
+  ary.reverse 
+end
