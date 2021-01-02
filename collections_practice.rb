@@ -34,3 +34,11 @@ end
 def reverse_array(ary)
   ary.reverse
 end
+
+def kesha_maker(string)
+  string.each do |letter|
+    letter[2] = $
+    return string
+  end
+end
+  
