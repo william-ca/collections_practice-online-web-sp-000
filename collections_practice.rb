@@ -49,3 +49,10 @@ end
 def sum_array(nums)
   nums.inject {|sum, num| sum + num}
 end
+
+def add_s(ary)
+  ary.each_with_index.collect do |l, i|
+    if i != 1
+      l << "s"
+    end
+  end
