@@ -32,5 +32,5 @@ def swap_elements(ary)
 end
 
 def reverse_array(ary)
-  ary.reverse 
+  ary.reverse
 end
